@@ -3,7 +3,7 @@ session_start();
 if(isset($_SESSION['name'])){
 	$user=$_SESSION['name'];
 	}
-else header('Location:http://localhost:8888/SimpleLogin/index.php');
+else header('Location:http://login.orchestra.io/index.php');
 ?>
 <!doctype html>
 <html>
