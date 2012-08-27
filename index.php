@@ -4,7 +4,7 @@ if(isset($_POST['login'])){
 	session_start();
 	$username=trim($_POST['username']);
 	$password=sha1($username.$_POST['password']);
-	$redirect='http://localhost/congrat.php';
+	$redirect='http://login.orchestra.io/congrat.php';
 	require_once('./authenticate.inc.php');
 	}
 ?>
